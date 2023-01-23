@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Carousel</title>
+  </head>
+  <body>
+ <div class="carousel slide" data-bs-ride="carousel" id="carousel123">
+    <!--carousel-indicators-->
+    <ol class="carousel-indicators">
+        <li class="active" data-bs-target="#carousel123" data-bs-slide-to="0"></li>
+        <li data-bs-target="#carousel123" data-bs-slide-to="1"></li>
+        <li data-bs-target="#carousel123" data-bs-slide-to="2"></li>
+    </ol>
+    <!--carousel-body-->
+    <div class="carousel-inner">
+        <!--item 1-->
+        <div class="carousel-item active">
+            <img src="https://cdn.pixabay.com/photo/2022/12/15/20/26/frozen-lake-7658478__340.jpg" alt="" >
+            <div class="carousel-caption">
+                <h1>Welcome user</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, magni quis ex itaque sed laudantium quasi dolore ratione beatae eum?</p>
+            </div>
+        </div>
+        <!--item 2-->
+        <div class="carousel-item">
+            <img src="https://cdn.pixabay.com/photo/2023/01/09/10/39/egret-7707108__340.jpg" alt="" >
+        </div>
+        <!--item 3-->
+        <div class="carousel-item">
+            <img src="https://cdn.pixabay.com/photo/2023/01/07/12/15/bridge-7703146__340.jpg" alt="" >
+        </div>
+    </div>
+    <!--Carousel-controls-->
+<a href="#carousel123" data-bs-slide="prev" class="carousel-control-prev "><span class="carousel-control-prev-icon bg-primary"></span></a>
+<a href="#carousel123" data-bs-slide="next" class="carousel-control-next "><span class="carousel-control-next-icon bg-primary"></span></a>
+ </div>
+
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
